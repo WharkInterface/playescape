@@ -1,0 +1,20 @@
+/**
+    * Projet : PlayEscape
+    * @author Alexandre PINTRAND / Bryan FERREIRA / Grégoire PEAN / Sabrina LAPAIRE
+    * @version 1.0, 29/01/2021, Initial revision
+*/
+
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pEnigme3 {
+    color: rgb(243, 243, 243);
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<!--
+    * Projet : PlayEscape
+    * @author Alexandre PINTRAND / Bryan FERREIRA / Grégoire PEAN / Sabrina LAPAIRE
+    * @version 1.0, 29/01/2021, Initial revision
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayEscape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <script src="js/index.js"></script>
+</head>
+
+<body onload="setTimeout(timeoutEnigme1, 450000)">
+    <main>
+        <img src="img/banner.JPG">
+        <h1>Première énigme : </h1>
+        <h1 style="color: red;">Trouvez le mot de passe</h1>
+        <input type="password" id="passwordEnigme1">
+        <input type="submit" value="Valider" onclick="validateEnigme1();">
+        <!-- Sha256 -->
+        <p>60e3e508c7281f68f7e5fd5a1fb3d9ec0ace9a1515f810fe4c77e9671b6efe14</p> <!-- Sha256 -->
+    </main>
+</body>
+
+</html>
